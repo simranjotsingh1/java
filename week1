@@ -1,0 +1,32 @@
+/**
+ * 
+ */
+package week1;
+
+/**
+ * @author 757409
+ *
+ */
+public class week1 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String words = "My name is Simar.";
+		int age = 19;
+		int a = 1;
+		int b = 10;
+		
+		//print 
+		System.out.println(words);
+		System.out.println(age);
+		
+		//Boolean true or false
+		System.out.println(a>b);
+		
+	}
+
+}
