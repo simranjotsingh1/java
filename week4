@@ -1,0 +1,29 @@
+<html>
+<head>
+<script>
+var again = "y"
+var end = 999 ;
+do {var fahrenheit = prompt("Enter Fahrenheit temperature");
+     fahrenheit = parseFloat(fahrenheit);
+	 if (fahrenheit>-100 && fahrenheit<212)
+     {var Celsius = (fahrenheit - 32) * (5/9) ;
+     Celsius= parseInt(Celsius);
+	 
+	 alert("Fahrenheit temperature is " + fahrenheit +  " \n \n " + "Celsius temperature is " + Celsius)
+	  }
+	  else 
+	{
+	  alert("you entered " + fahrenheit + "\n " + "Entry must range from -100 to +212" )
+	}
+	
+	again = prompt("Again repeat ? y or 999 to end the program ","y or 999")
+	}
+	while (again == "y")
+	
+	
+</script>
+<body>
+</body>
+</html>
+	 
+  
