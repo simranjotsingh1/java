@@ -28,33 +28,32 @@ do {var fahrenheit = prompt("Enter Fahrenheit temperature");
 
 
 
-var end = +999 ;
+var end = '0' ;
 do {	
         var marks = prompt("Enter the marks from 0 through 100 :" );
         marks = parseFloat(marks);
 	
-		if(marks >=+88 && marks<=+100)
+		if(marks >=88 && marks<=100)
 		{
-		alert("Number grade " + marks + "\n \n" + "Letter grade = A")
+		alert("Number grade " + marks + "\n \n" + "Letter grade = A");
 		}
 	    else if(marks >=80 && marks<=87)
 		{
-		alert("Number grade " + marks + "\n \n" + "Letter grade = B")
+		alert("Number grade " + marks + "\n \n" + "Letter grade = B");
 		}
 		else if(marks >=68 && marks<=79)
 		{
-		alert("Number grade " + marks + "\n \n" + "Letter grade = C")
+		alert("Number grade " + marks + "\n \n" + "Letter grade = C");
 		}
 		else if(marks >=60 && marks<=67)
 		{
-		alert("Number grade " + marks + "\n \n" + "Letter grade = D")
+		alert("Number grade " + marks + "\n \n" + "Letter grade = D");
 		}
         else 
 		{
-		alert("Number grade " + marks + "\n \n" + "Letter grade = F")
+		alert("Number grade " + marks + "\n \n" + "Letter grade = F");
 		}
-		end = prompt("Enter the marks from 0 through 100 " + "marks " + "\n \n" + "Or enter 999 to end entries")
+		end = prompt("Enter the marks from 0 through 100 " + "marks " + "\n \n" + "Or enter 999 to end entries");
 		}
-		while(end = "999")
-	 
-  
+		while(end != '999');
+</script>
