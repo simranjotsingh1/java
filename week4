@@ -5,7 +5,7 @@ var again = "y"
 var end = 999 ;
 do {var fahrenheit = prompt("Enter Fahrenheit temperature");
      fahrenheit = parseFloat(fahrenheit);
-	 if (fahrenheit>-100 && fahrenheit<212)
+	 if (fahrenheit>-100 && fahrenheit<+212)
      {var Celsius = (fahrenheit - 32) * (5/9) ;
      Celsius= parseInt(Celsius);
 	 
